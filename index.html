@@ -18,13 +18,23 @@
     <hr />
     <h2>Enter Grades</h2>
 
-    <p class="inputs">Client Side Scripting 1: <input type="number" />%</p>
-    <p class="inputs">Structured Programming 1: <input type="number" />%</p>
-    <p class="inputs">Structured Programming 2: <input type="number" />%</p>
-    <p class="inputs">Client Side Scripting 2: <input type="number" />%</p>
-    <p class="inputs">Project A: <input type="number" />%</p>
-    <button><strong>Calculate CS10 Grade</strong></button>
+    <p class="inputs">
+      Client Side Scripting 1: <input id="CSS1" type="number" value=" " />%
+    </p>
+    <p class="inputs">
+      Structured Programming 1: <input id="SP1" type="number" value=" " />%
+    </p>
+    <p class="inputs">
+      Structured Programming 2: <input id="SP2" type="number" value=" " />%
+    </p>
+    <p class="inputs">
+      Client Side Scripting 2: <input id="CSS2" type="number" value=" " />%
+    </p>
+    <p class="inputs">Project A: <input id="PA" type="number" value=" " />%</p>
+    <button id="buttonfunc">
+      <strong>Calculate CS10 Grade</strong>
+    </button>
     <hr />
-    <h2>Final CS10 Grade: -----%</h2>
+    <h2>Final CS10 Grade: <span id="outputV">-----</span>%</h2>
   </body>
 </html>
